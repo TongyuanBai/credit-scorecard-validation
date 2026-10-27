@@ -1,0 +1,12 @@
+# Data are downloaded by scripts/download_data.py (see data/README.md)
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db

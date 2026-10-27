@@ -1,0 +1,16 @@
+step,variable,reason
+IV filter,emp_length,IV = 0.0198 < 0.02
+IV filter,num_il_tl,IV = 0.0125 < 0.02
+IV filter,revol_util,IV = 0.0114 < 0.02
+IV filter,annual_inc,IV = 0.0000 < 0.02
+IV filter,delinq_2yrs,IV = 0.0000 < 0.02
+IV filter,acc_now_delinq,IV = 0.0000 < 0.02
+IV filter,delinq_amnt,IV = 0.0000 < 0.02
+Correlation filter,open_il_24m,correlation 0.66 with open_il_12m (higher IV)
+Correlation filter,total_il_high_credit_limit,correlation 0.83 with total_bal_il (higher IV)
+Backward elimination,open_il_6m,coefficient -0.518 has the wrong sign
+Backward elimination,inq_last_12m,p = 0.638 > 0.05
+Backward elimination,total_bal_il,p = 0.386 > 0.05
+Backward elimination,term,p = 0.058 > 0.05
+Re-entry,total_il_high_credit_limit,no remaining variable has a correlation above the limit
+Backward elimination,total_il_high_credit_limit,p = 0.963 > 0.05

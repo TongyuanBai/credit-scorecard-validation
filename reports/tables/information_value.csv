@@ -1,0 +1,19 @@
+variable,description,bins,iv,selected
+open_il_12m,Instalment accounts opened in the past 12 months,3,0.17849180873988285,yes
+open_il_24m,Instalment accounts opened in the past 24 months,3,0.1504362476873124,
+inq_last_6mths,Credit inquiries in the past 6 months,3,0.10655284138726148,yes
+all_util,Balance to credit limit on all trades (%),2,0.09211226223522877,yes
+inq_last_12m,Credit inquiries in the past 12 months,3,0.08806978753781769,
+inq_fi,Personal finance inquiries,2,0.07430127212266739,yes
+total_bal_il,Total current balance of instalment accounts,2,0.04985462527768011,
+open_il_6m,Currently active instalment trades,2,0.03011244559535749,
+term,Loan term (36 or 60 months),2,0.02388965237258233,
+funded_amnt,Loan amount funded,2,0.023439825111212967,yes
+total_il_high_credit_limit,Total high credit / credit limit of instalment accounts,2,0.020356639239004826,
+emp_length,Employment length in years (10 = 10 or more; missing if not reported),3,0.019847280884400367,
+num_il_tl,Number of instalment accounts,2,0.012529844529694186,
+revol_util,Revolving line utilisation (%),2,0.011449820472628762,
+annual_inc,Self-reported annual income,1,0.0,
+delinq_2yrs,Delinquencies (30+ days) in the past 2 years,1,0.0,
+acc_now_delinq,Accounts on which the borrower is now delinquent,1,0.0,
+delinq_amnt,Past-due amount owed on delinquent accounts,1,0.0,
