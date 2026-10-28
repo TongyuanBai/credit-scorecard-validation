@@ -1,6 +1,6 @@
 # Credit scorecard development and validation on Lending Club loans
 
-An application scorecard for consumer loans, built with weight-of-evidence (WOE) binning and logistic regression, and documented with a validation report on discrimination, calibration, rating grades and population stability. A second experiment tests how well bad loans can be predicted when only a small share of loans is labelled, using the sample-selection and label-propagation components of [ADGSSL](https://github.com/TongyuanBai/ADGSSL).
+An application scorecard for consumer loans, built with weight-of-evidence (WOE) binning and logistic regression, and documented with a validation report on discrimination, calibration, rating grades and population stability. A second experiment tests how well bad loans can be predicted when only a small share of loans is labelled, using the sample-selection and label-propagation components of [ADGSSL](https://github.com/TongyuanBai/adgssl-food-adulteration).
 
 The data are 9,857 Lending Club loans issued in the first quarter of 2016, distributed with the R package [`modeldata`](https://modeldata.tidymodels.org/reference/lending_club.html). A loan is bad (5.25% of loans) if it was charged off, in default or 21-120 days late when the data were extracted. The extraction date is not given, so the outcome has no fixed performance window, and the model predicts this bad flag rather than a 12-month probability of default.
 

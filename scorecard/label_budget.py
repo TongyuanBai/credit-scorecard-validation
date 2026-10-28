@@ -1,7 +1,7 @@
 """Default prediction when only a small budget of loans can be labelled.
 
 This module re-implements, for use in this repository, the two components of
-ADGSSL (https://github.com/TongyuanBai/ADGSSL):
+ADGSSL (https://github.com/TongyuanBai/adgssl-food-adulteration):
 
 * SJUS key-sample selection (``Code/SJUS.py``): a minimum spanning tree (MST)
   of the pairwise Euclidean distances, spectral clustering of the MST, a
